@@ -16,8 +16,10 @@ print("There we go: ", stuff)
 
 print("Let's do some things with stuff.")
 
-print(stuff[1])
-print(stuff[-1]) # whoa! fancy
+print("1:", stuff[1])
+print("-1:", stuff[-1]) # whoa! fancy
+print("-10:", stuff[-10])
+print("-8:", stuff[-8])
 print(stuff.pop())
 print(' '.join(stuff)) # what? cool!
 print('#'.join(stuff[3:5])) # super stellar!
